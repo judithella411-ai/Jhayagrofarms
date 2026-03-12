@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Agro - Palm Oil Supplier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5e6;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* TikTok icon */
+        .social-icons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .social-icons a img {
+            width: 35px;
+            height: 35px;
+        }
+
+        nav {
+            background-color: #ff944d;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #cc3300;
+            text-align: center;
+        }
+
+        .info, .pricing, .contact {
+            margin-bottom: 40px;
+        }
+
+        .info p, .contact p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .pricing .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #ffe6cc;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .pricing .item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .item-details {
+            flex: 1;
+        }
+
+        .item-details h3 {
+            margin: 0 0 10px 0;
+            color: #cc3300;
+        }
+
+        .item-details p {
+            margin: 5px 0;
+            font-weight: bold;
+        }
+
+        .buy-btn {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .buy-btn:hover {
+            background-color: #cc3300;
+        }
+
+        footer {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .pricing .item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .pricing .item img {
+                margin-bottom: 10px;
+            }
+
+            .social-icons {
+                top: 10px;
+                right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jay Agro</h1>
+        <p>From Our Farm to Your Table 🥥🌴</p>
+        <div class="social-icons">
+            <a href="https://vt.tiktok.com/ZSuUBxqrm/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/TikTok_logo.svg" alt="TikTok">
+            </a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="info">
+            <h2>About Jay Agro</h2>
+            <p>
+                At <strong>Jay Agro</strong>, we provide <strong>fresh, unadulterated palm oil</strong> straight from our farm to your kitchen. 
+                We are a registered company with a working store, producing and selling high-quality palm oil to meet all your needs. Whether you’re cooking at home, 
+                running a restaurant, or buying in bulk, we’ve got the perfect palm oil for you.
+            </p>
+            <p>
+                We use <strong>advanced machines</strong> that remove chaff and impurities from the palm fruit before cooking, so there’s <strong>no need to strain</strong>. 
+                This ensures your palm oil is clean, neat, and ready to use, giving you the true taste of fresh palm oil every time.
+            </p>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <h2>Palm Oil Pricing</h2>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1615566400852-55d1a8f72ed1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200" alt="Palm Oil">
+                <div class="item-details">
+                    <h3>1 Liter</h3>
+                    <p>₦2,500</p>
+                </div>
+                <a href="https://wa.me/2349137496647?text=Hello%20Jay%20Agro,%20I%20want%201%20liter%20of%20palm%20oil." class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1615566400852-55d1a8f72ed1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200" alt="Palm Oil">
+                <div class="item-details">
+                    <h3>2 Liters</h3>
+                    <p>₦5,000</p>
+                </div>
+                <a href="https://wa.me/2349137496647?text=Hello%20Jay%20Agro,%20I%20want%202%20liters%20of%20palm%20oil." class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1615566400852-55d1a8f72ed1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200" alt="Palm Oil">
+                <div class="item-details">
+                    <h3>3 Liters</h3>
+                    <p>₦7,500</p>
+                </div>
+                <a href="https://wa.me/2349137496647?text=Hello%20Jay%20Agro,%20I%20want%203%20liters%20of%20palm%20oil." class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1615566400852-55d1a8f72ed1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200" alt="Palm Oil">
+                <div class="item-details">
+                    <h3>4 Liters</h3>
+                    <p>₦10,000</p>
+                </div>
+                <a href="https://wa.me/2349137496647?text=Hello%20Jay%20Agro,%20I%20want%204%20liters%20of%20palm%20oil." class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1615566400852-55d1a8f72ed1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200" alt="Palm Oil">
+                <div class="item-details">
+                    <h3>5 Liters</h3>
+                    <p>₦12,000</p>
+                </div>
+                <a href="https://wa.me/2349137496647?text=Hello%20Jay%20Agro,%20I%20want%205%20liters%20of%20palm%20oil." class="buy-btn">Buy Now</a>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1615566400852-55d1a8f72ed1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=200" alt="Palm Oil">
+                <div class="item-details">
+                    <h3>25 Liters</h3>
+                    <p>₦58,000</p>
+                </div>
+                <a href="https://wa.me/2349137496647?text=Hello%20Jay%20Agro,%20I%20want%2025%20liters%20of%20palm%20oil." class="buy-btn">Buy Now</a>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact & Location</h2>
+            <p><strong>Location:</strong> Oroomba South Local Government, Umunze</p>
+            <p><strong>Visit our store:</strong> We have a working store where you can see and buy our palm oil directly.</p>
+            <p><strong>Orders & Inquiries:</strong> Call or message us to place your order. We deliver safely to your doorstep!</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Jay Agro – From Our Farm to Your Table 🥥🌴</p>
+    </footer>
+
+</body>
+</html>
